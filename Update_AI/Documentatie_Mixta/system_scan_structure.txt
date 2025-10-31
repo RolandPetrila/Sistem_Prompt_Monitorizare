@@ -1,0 +1,82 @@
+Folder PATH listing
+Volume serial number is 0044005C 321D:A7CA
+C:\USERS\ALIENWARE\DESKTOP\ROLY\4. ARTIFICIAL INTELIGENCE\ENTERPRISE_WORK\CLAUDE\SISTEM_PROMPT_MONITORIZARE\AI_PROMPT_GENERATOR_ULTIMATE\UPDATE_AI\DOCUMENTATIE_MIXTA
+|   system_scan_structure.txt
+|   
++---Claude_files
+|       2225-9715d6f84b41ae2d.js.download
+|       22747d63-b64fa430ea32f009.js.download
+|       2574-19942d0bbcf5fc32.js.download
+|       3ed1fd6af7fd36eb.css
+|       58adcd77d531b09a848c.js.download
+|       7bf36345-1ac10ec2f0e0c88f.js.download
+|       87c73c54-dd8d81ac9604067c.js.download
+|       9666-c4fceb77f4bc203a.js.download
+|       9af238c7-102fa0d280f02554.js.download
+|       acdaad1d23646914.css
+|       b3152fa1bdafab10.css
+|       cd977549454cf18d.css
+|       Claude.html
+|       d6bd087f08a7f52f.css
+|       da25616fcf863192.css
+|       ea20d1af3c8baa2ea75e.js.download
+|       lupk8zyo
+|       main-app-cbd6d8b9acd5ab0a.js.download
+|       polyfills-42372ed130431b0a.js.download
+|       s.js.download
+|       saved_resource(1).html
+|       saved_resource(2).html
+|       saved_resource.html
+|       webpack-90a1dad41b4c9266.js.download
+|       
++---Claude_Projects_Files
+|       cursor_comprehensive_system_diagnostics.md
+|       cursor_finalize_system_tasks_and_testin.md
+|       cursor_finalizing_mvp_with_manual_testi.md
+|       MASTER_DNA_COMPLETE.md
+|       MASTER_DNA_SUMMARY.md
+|       New Text Document.txt
+|       pytest_output.txt
+|       
++---Cursor_Extragere_Chat
+|       cursor_comprehensive_system_diagnostics.md
+|       cursor_finalize_system_tasks_and_testin.md
+|       cursor_finalizing_mvp_with_manual_testi.md
+|       cursor_verify_framework_creation_and_sy.md
+|       
++---Documentatie
+|       1.1.Cerinta_Roland.md
+|       1.2.AI_prompt_generator.py
+|       1.2.readme_github.md
+|       1.2.setup_files.txt
+|       1.3.Chat_Claude.md
+|       2.1.AI_prompt_generator.py
+|       2.2.Chat_Claude.md
+|       3.1.Cerinta_Roland.md
+|       3.2.Chat_Claude.md
+|       4.1.Cerinta_Roland.md
+|       4.2.Chat_Claude.md
+|       5.1.Chat_Claude.md
+|       5.2.Cerinta_Roland.md
+|       5.3.Rezumat_Chat_Nou_Claude.md
+|       6.1.Chat_GPT5.md
+|       6.2.Cerinta_Roland_Analiza_5.3.GPT5.md
+|       6.3.1.Chat_Claude_Raport_5.3.GPT5.md
+|       6.3.2.Chat_Claude_Raport_5.3.GPT5.md
+|       6.4.Chat_Claude.md
+|       6.5.Cerinta_Roland.md
+|       6.6.Chat_Claude.md
+|       7.1.Cerinta_Roland_Analiza_Tot.md
+|       7.2.Chat_Claude_Raport_7.1.Tot.md
+|       7.3.Cerinta_Roland_Analiza_Completare.md
+|       7.4.Chat_Claude_Raport_7.3.Completare.md
+|       8.1.Chat_Claude.md
+|       Grupe_8_Prompt_26.md
+|       New Text Document.txt
+|       
+\---Proiect_Varianta_Noua
+        1.0_Proiect_nou_Claude.md
+        1.1_Proiect_Update_Claude.md
+        Ghid_Proiect_Iterativ_Validare.md
+        New Text Document.txt
+        

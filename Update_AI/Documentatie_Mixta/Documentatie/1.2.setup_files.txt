@@ -1,0 +1,204 @@
+# 📦 SETUP COMPLET - AI PROMPT GENERATOR
+
+## 🚀 INSTALARE RAPIDĂ
+
+### 1. Creează structura proiectului
+
+```bash
+mkdir ai-prompt-generator
+cd ai-prompt-generator
+```
+
+### 2. Creează fișierul `requirements.txt`
+
+```txt
+# requirements.txt
+watchdog==3.0.0      # File system monitoring
+tkinter              # GUI (built-in cu Python)
+```
+
+### 3. Copiază fișierul `ai_prompt_generator.py`
+
+Salvează codul Python din artifact în fișierul `ai_prompt_generator.py`
+
+### 4. Instalează dependințele
+
+```bash
+# Creare virtual environment
+python -m venv venv
+
+# Activare
+# Linux/Mac:
+source venv/bin/activate
+# Windows:
+venv\Scripts\activate
+
+# Instalare pachete
+pip install -r requirements.txt
+```
+
+### 5. Rulează aplicația
+
+```bash
+python ai_prompt_generator.py
+```
+
+---
+
+## 📋 STRUCTURĂ COMPLETĂ PROIECT
+
+```
+ai-prompt-generator/
+├── ai_prompt_generator.py    # Aplicația principală
+├── requirements.txt           # Dependințe Python
+├── README.md                  # Documentație
+├── venv/                      # Virtual environment
+└── dist/                      # Build-uri (după pyinstaller)
+```
+
+---
+
+## 🎯 FUNCȚIONALITĂȚI
+
+### ✅ Ce face aplicația:
+
+1. **Monitoring Real-Time**
+   - Detectează automat fișierele modificate în proiect
+   - Ignoră automat `.git`, `__pycache__`, `node_modules`
+   - Debounce pentru a evita event-uri multiple
+
+2. **Generare Prompturi**
+   - **Inițializare**: Pentru prima sesiune AI
+   - **Continuare**: Pentru reluarea lucrului
+   - **Bug Fix**: Pentru debugging și remedieri
+   - **Feature Nou**: Pentru adăugare funcționalități
+   - **Extragere DNA**: Pentru backup complet
+
+3. **Auto-Generate**
+   - Opțional: Regenerează prompt automat la fiecare save
+   - Perfect pentru workflow rapid
+
+4. **Export**
+   - Copiază în clipboard (Ctrl+C direct în AI)
+   - Salvează ca fișier .md pentru referință
+
+---
+
+## 🔧 UTILIZARE DETALIATĂ
+
+### Pas 1: Configurare Inițială
+
+1. **Browse Project**: Selectează folder-ul rădăcină al proiectului
+   - Exemplu: `/home/user/my-ecommerce-app`
+
+2. **Nume Proiect**: Auto-detectat din folder sau custom
+   - Exemplu: `my-ecommerce-app`
+
+3. **Tip Proiect**: Selectează arhitectura
+   - Fullstack (Backend + Frontend)
+   - Backend Only (FastAPI/Django)
+   - Frontend Only (React/Vue)
+   - Mobile/ML/Other
+
+4. **Folder Export**: Unde să genereze DNA
+   - Default: `Update_AI/DNA_Export`
+   - Se creează automat dacă nu există
+
+5. **Status Curent**: Context pentru AI
+   ```
+   Exemplu:
+   "Implementez sistem de plăți cu Stripe.
+   Am finalizat autentificarea JWT și CRUD utilizatori.
+   Următorul pas: integrare Stripe cu race condition protection."
+   ```
+
+### Pas 2: Selectare Tip Prompt
+
+**🚀 Inițializare** - Folosește când:
+- Începi un chat NOU cu AI
+- Vrei să setezi regulile și arhitectura
+- Prima interacțiune pentru un proiect
+
+**🔄 Continuare** - Folosește când:
+- Continui lucrul dintr-un chat anterior
+- Ai făcut pauză și revii
+- Schimbi instanța AI dar ai deja context
+
+**🐛 Bug Fix** - Folosește când:
+- Ai descoperit un bug
+- Vrei debugging structured
+- Trebuie să documentezi fix-ul
+
+**✨ Feature Nou** - Folosește când:
+- Adaugi funcționalitate nouă
+- Vrei plan de implementare detaliat
+- Necesită arhitectură nouă
+
+**📦 Extragere DNA** - Folosește când:
+- Vrei backup complet al proiectului
+- Pregătești transfer către AI nou
+- Periodic (recomandat: bi-săptămânal)
+
+### Pas 3: Monitoring (Opțional)
+
+1. **Start Monitoring**: Click pe buton
+   - Status devine "● Watching..."
+   - Detectează automat modificările
+
+2. **Auto-Generate**: Bifează checkbox
+   - Regenerează prompt la fiecare save
+   - Ideal pentru workflow rapid
+
+3. **Vezi Schimbările**: Log real-time
+   ```
+   15:23:45 📝 MODIFIED: src/api/routes/payment.py
+   15:24:12 ✨ CREATED: tests/test_payment.py
+   15:24:30 🗑️ DELETED: old_code.py
+   ```
+
+### Pas 4: Generare și Export
+
+1. **Generează Prompt**: Click pe buton
+   - Generează instant pe baza configurației
+   - Actualizează preview-ul
+
+2. **Copiază în Clipboard**: 
+   - Click "📋 Copiază"
+   - Paste direct în chat-ul AI (Ctrl+V)
+
+3. **Salvează Fișier**:
+   - Click "💾 Salvează"
+   - Salvează ca `initial_prompt_20251027_153000.md`
+   - Păstrează istoric pentru referință
+
+---
+
+## 💡 WORKFLOW RECOMANDAT
+
+### Workflow Zilnic
+
+```
+1. Deschide aplicația
+2. Browse la proiectul tău
+3. Start Monitoring + Auto-Generate ON
+4. Lucrezi normal în Cursor/VSCode
+5. La fiecare save → prompt-ul se actualizează automat
+6. Când ai nevoie de ajutor AI:
+   - Selectează tipul potrivit (continuation/bugfix/feature)
+   - Copiază prompt
+   - Paste în AI
+   - Primești răspuns enterprise-level
+```
+
+### Workflow Săptămânal
+
+```
+Vinerea:
+1. Selectează "📦 Extragere DNA"
+2. Generează prompt
+3. AI-ul generează în Update_AI/DNA_Export_[timestamp]/
+4. Ai backup complet al proiectului
+5. Poți transfera către orice AI nou
+```
+
+---

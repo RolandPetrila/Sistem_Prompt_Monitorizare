@@ -1,0 +1,6 @@
+﻿# AI Prompt Generator Ultimate v1.0.0 - Checksums
+# Generated: 2025-10-31 04:30:31 UTC
+## Executable
+DF7B53C614EF282C2B9B77A6BF81F9D7BA77E441902C65CE0399D3CDED9CC603  dist/AIPromptGenerator.exe
+
+

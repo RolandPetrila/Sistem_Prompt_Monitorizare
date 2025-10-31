@@ -1,0 +1,29 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-8.3.3, pluggy-1.6.0 -- C:\Users\ALIENWARE\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+PySide6 6.10.0 -- Qt runtime 6.10.0 -- Qt compiled 6.10.0
+rootdir: C:\Users\ALIENWARE\Desktop\Roly\4. Artificial Inteligence\Enterprise_Work\Claude\Sistem_Prompt_Monitorizare\ai_prompt_generator_ultimate
+configfile: pyproject.toml
+plugins: anyio-4.10.0, cov-4.1.0, qt-4.5.0
+collecting ... collected 111 items
+
+tests/test_architecture_review.py::test_cycle_detection PASSED           [  0%]
+tests/test_architecture_review.py::test_coupling_counts PASSED           [  1%]
+tests/test_backup_manager.py::test_full_backup_creation_and_list_and_restore PASSED [  2%]
+tests/test_backup_manager.py::test_incremental_and_retention PASSED      [  3%]
+tests/test_basic.py::TestImports::test_pyside6_import PASSED             [  4%]
+tests/test_basic.py::TestImports::test_core_modules_import PASSED        [  5%]
+tests/test_basic.py::TestImports::test_gui_modules_import PASSED         [  6%]
+tests/test_basic.py::TestConfigManager::test_config_manager_init PASSED  [  7%]
+tests/test_basic.py::TestConfigManager::test_config_load_default PASSED  [  8%]
+tests/test_basic.py::TestConfigManager::test_config_save_load PASSED     [  9%]
+tests/test_basic.py::TestConfigManager::test_ai_providers_config PASSED  [  9%]
+tests/test_basic.py::TestLogger::test_logger_init PASSED                 [ 10%]
+tests/test_basic.py::TestLogger::test_get_logger PASSED                  [ 11%]
+tests/test_basic.py::TestMainModule::test_main_import PASSED             [ 12%]
+tests/test_basic.py::TestMainModule::test_main_functions PASSED          [ 13%]
+tests/test_basic.py::TestAIOrchestrator::test_ai_orchestrator_init PASSED [ 14%]
+tests/test_basic.py::TestAIOrchestrator::test_ai_providers_enum PASSED   [ 15%]
+tests/test_basic.py::TestProjectMonitor::test_project_monitor_init PASSED [ 16%]
+tests/test_basic.py::TestProjectMonitor::test_project_monitor_ignore_patterns PASSED [ 17%]
+tests/test_basic.py::TestGUIDefinition::test_dashboard_tab_init 

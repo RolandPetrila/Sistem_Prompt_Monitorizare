@@ -140,9 +140,30 @@ celerybeat.pid
 .venv
 env/
 venv/
+venv_new/
+venv311/
 ENV/
 env.bak/
 venv.bak/
+
+# Config (cu API keys)
+config_local.json
+*.key
+api_keys_loaded.json
+
+# Build artifacts
+*.exe
+*.msi
+
+# Large files (evităm erori push)
+*.dat
+*.bin
+*.model
+
+# Temporary
+*.tmp
+*.bak
+Update_AI/Diagnostics_Report_*/
 
 # Spyder project settings
 .spyderproject
